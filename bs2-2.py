@@ -8,5 +8,3 @@ if(N<=1000):
         print("yes")
     else:
         print("no")
-else:
-    print("number must be less than 1000")
