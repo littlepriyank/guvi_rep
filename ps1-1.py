@@ -3,6 +3,6 @@ try:
     if(len(s)<=100000):
         print(s[::-1])
     else:
-        print("Invalid")
+        raise Exception
 except:
     print("Invalid")
