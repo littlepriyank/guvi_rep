@@ -16,7 +16,7 @@ int main(void) {
 	        printf("unique");
 	}
 	else{
-	for(int i=0;i<l;i++){
+	for(int i=0;i<=l;i++){
 	  if(a[i]>1)
 	  printf("%d ",i);
 	  
